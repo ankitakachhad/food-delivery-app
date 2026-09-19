@@ -1,0 +1,1034 @@
+[
+  {
+    "id": "r1",
+    "name": "Spice Garden",
+    "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.5,
+    "ratingCount": 2847,
+    "cuisines": ["North Indian", "Biryani", "Mughlai"],
+    "deliveryTime": "30-35 min",
+    "distanceKm": 2.4,
+    "priceForTwo": 400,
+    "isVeg": false,
+    "offer": "50% OFF up to ₹100",
+    "categoryIds": ["biryani"],
+    "menu": [
+      {
+        "id": "r1-m1",
+        "name": "Hyderabadi Chicken Dum Biryani",
+        "price": 320,
+        "description": "Long-grain basmati sealed over marinated chicken with saffron milk and slow-cooked on dum until every grain carries the spice.",
+        "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Recommended",
+        "rating": 4.6
+      },
+      {
+        "id": "r1-m2",
+        "name": "Lucknowi Mutton Biryani",
+        "price": 420,
+        "description": "Tender mutton shanks layered with birista onions, kewra water and whole garam masala in the Awadhi style.",
+        "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Recommended",
+        "rating": 4.5
+      },
+      {
+        "id": "r1-m3",
+        "name": "Paneer Butter Masala",
+        "price": 260,
+        "description": "Malai paneer cubes in a velvety tomato and cashew gravy, finished with a spoon of white butter.",
+        "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Main Course",
+        "rating": 4.4
+      },
+      {
+        "id": "r1-m4",
+        "name": "Dal Makhani",
+        "price": 220,
+        "description": "Black urad dal simmered overnight on a low flame, tempered with ghee and ginger and swirled with cream.",
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Main Course",
+        "rating": 4.5
+      },
+      {
+        "id": "r1-m5",
+        "name": "Chicken Tikka",
+        "price": 290,
+        "description": "Boneless thigh pieces in a hung-curd and ajwain marinade, charred in the tandoor and served with mint chutney.",
+        "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Starters",
+        "rating": 4.4
+      },
+      {
+        "id": "r1-m6",
+        "name": "Paneer Tikka Angara",
+        "price": 270,
+        "description": "Thick-cut paneer smoked over coal, brushed with red chilli butter and tossed with charred capsicum and onion.",
+        "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Starters",
+        "rating": 4.3
+      },
+      {
+        "id": "r1-m7",
+        "name": "Butter Naan",
+        "price": 60,
+        "description": "Pillowy tandoor-baked naan brushed with melted butter, made to be torn straight into the gravy.",
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Breads",
+        "rating": 4.6
+      },
+      {
+        "id": "r1-m8",
+        "name": "Gulab Jamun",
+        "price": 110,
+        "description": "Two warm khoya dumplings soaking in cardamom sugar syrup, dusted with slivered pistachio.",
+        "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Desserts",
+        "rating": 4.4
+      }
+    ]
+  },
+  {
+    "id": "r2",
+    "name": "Napoli Wood Fire",
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.3,
+    "ratingCount": 1892,
+    "cuisines": ["Pizza", "Italian", "Pasta"],
+    "deliveryTime": "25-30 min",
+    "distanceKm": 1.8,
+    "priceForTwo": 600,
+    "isVeg": false,
+    "offer": "Free delivery on orders above ₹399",
+    "categoryIds": ["pizza"],
+    "menu": [
+      {
+        "id": "r2-m1",
+        "name": "Margherita Verace",
+        "price": 380,
+        "description": "San Marzano tomato, fior di latte and torn basil on a 60-hour fermented base, blistered in 90 seconds.",
+        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Recommended",
+        "rating": 4.5
+      },
+      {
+        "id": "r2-m2",
+        "name": "Diavola",
+        "price": 480,
+        "description": "Spicy salami and chilli flakes under melted mozzarella, finished with a thin drizzle of hot honey.",
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Recommended",
+        "rating": 4.4
+      },
+      {
+        "id": "r2-m3",
+        "name": "Quattro Formaggi",
+        "price": 520,
+        "description": "Mozzarella, gorgonzola, parmesan and smoked scamorza melted together into one long cheese pull.",
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Wood Fired Pizza",
+        "rating": 4.3
+      },
+      {
+        "id": "r2-m4",
+        "name": "Funghi Tartufo",
+        "price": 540,
+        "description": "Button and oyster mushrooms with truffle cream, topped with rocket leaves the moment it leaves the oven.",
+        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Wood Fired Pizza",
+        "rating": 4.4
+      },
+      {
+        "id": "r2-m5",
+        "name": "Garlic Bread Sticks",
+        "price": 190,
+        "description": "Hand-rolled dough sticks loaded with roasted garlic butter and oregano, with a warm cheese dip alongside.",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Starters",
+        "rating": 4.2
+      },
+      {
+        "id": "r2-m6",
+        "name": "Penne Arrabbiata",
+        "price": 340,
+        "description": "Al dente penne in a fiery tomato and bird-eye chilli sauce, finished with shavings of parmesan.",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Pasta",
+        "rating": 4.1
+      },
+      {
+        "id": "r2-m7",
+        "name": "Classic Tiramisu",
+        "price": 260,
+        "description": "Espresso-soaked savoiardi under whipped mascarpone, dusted with bitter cocoa just before it is boxed.",
+        "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Desserts",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": "r3",
+    "name": "Hyderabad Biryani House",
+    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.2,
+    "ratingCount": 5421,
+    "cuisines": ["Biryani", "Hyderabadi", "Kebabs"],
+    "deliveryTime": "35-40 min",
+    "distanceKm": 3.6,
+    "priceForTwo": 350,
+    "isVeg": false,
+    "offer": "₹75 OFF above ₹349",
+    "categoryIds": ["biryani"],
+    "menu": [
+      {
+        "id": "r3-m1",
+        "name": "Chicken Dum Biryani Family Pack",
+        "price": 620,
+        "description": "Serves three, sent out in a sealed handi with a boiled egg, mirchi ka salan and onion raita.",
+        "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Recommended",
+        "rating": 4.3
+      },
+      {
+        "id": "r3-m2",
+        "name": "Mutton Biryani",
+        "price": 400,
+        "description": "Bone-in mutton cooked with the rice so the marrow and saffron run right through the bottom layer.",
+        "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Recommended",
+        "rating": 4.4
+      },
+      {
+        "id": "r3-m3",
+        "name": "Veg Dum Biryani",
+        "price": 240,
+        "description": "Seasonal vegetables and paneer layered with saffron rice, fried onions and a mint-coriander paste.",
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Biryani",
+        "rating": 4.0
+      },
+      {
+        "id": "r3-m4",
+        "name": "Chicken 65",
+        "price": 250,
+        "description": "Crisp bite-sized chicken tossed with curry leaves, green chilli and a tangy yoghurt-chilli glaze.",
+        "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Starters",
+        "rating": 4.4
+      },
+      {
+        "id": "r3-m5",
+        "name": "Apollo Fish",
+        "price": 320,
+        "description": "Boneless basa cubes double-fried for crunch, then tossed through a sharp Hyderabadi chilli masala.",
+        "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Starters",
+        "rating": 4.2
+      },
+      {
+        "id": "r3-m6",
+        "name": "Mirchi Ka Salan",
+        "price": 120,
+        "description": "Long green chillies in a peanut and sesame gravy, the biryani side nobody here skips.",
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Sides",
+        "rating": 4.1
+      },
+      {
+        "id": "r3-m7",
+        "name": "Double Ka Meetha",
+        "price": 140,
+        "description": "Ghee-fried bread soaked in saffron milk and reduced khoya, topped with almond and pistachio slivers.",
+        "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Desserts",
+        "rating": 4.2
+      }
+    ]
+  },
+  {
+    "id": "r4",
+    "name": "Bombay Burger Bros",
+    "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.1,
+    "ratingCount": 3210,
+    "cuisines": ["Burgers", "Fast Food", "American"],
+    "deliveryTime": "20-25 min",
+    "distanceKm": 1.2,
+    "priceForTwo": 350,
+    "isVeg": false,
+    "offer": "Buy 1 Get 1 on select burgers",
+    "categoryIds": ["burger"],
+    "menu": [
+      {
+        "id": "r4-m1",
+        "name": "Double Cheese Smash Burger",
+        "price": 320,
+        "description": "Two thin patties seared hard for crisp lacy edges, stacked with molten cheddar, pickles and burger sauce.",
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Recommended",
+        "rating": 4.4
+      },
+      {
+        "id": "r4-m2",
+        "name": "Chicken Zinger Burger",
+        "price": 260,
+        "description": "Buttermilk-brined chicken fillet fried to a loud crunch, with shredded lettuce and jalapeno mayo.",
+        "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Recommended",
+        "rating": 4.3
+      },
+      {
+        "id": "r4-m3",
+        "name": "Desi Vada Pav Burger",
+        "price": 150,
+        "description": "A spiced potato vada pressed into a butter-toasted bun with dry garlic chutney and a fried green chilli.",
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Veg Burgers",
+        "rating": 4.2
+      },
+      {
+        "id": "r4-m4",
+        "name": "Crispy Paneer Burger",
+        "price": 220,
+        "description": "Panko-crusted paneer slab with mint slaw and tandoori mayo inside a soft brioche bun.",
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Veg Burgers",
+        "rating": 4.1
+      },
+      {
+        "id": "r4-m5",
+        "name": "Peri Peri Fries",
+        "price": 140,
+        "description": "Skin-on fries tossed straight from the fryer in tangy peri peri dust, with a garlic aioli dip.",
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Sides",
+        "rating": 4.3
+      },
+      {
+        "id": "r4-m6",
+        "name": "Chicken Popcorn Bucket",
+        "price": 230,
+        "description": "Bite-sized boneless chicken in a crackly spiced coating, built to disappear on the drive home.",
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Sides",
+        "rating": 4.2
+      },
+      {
+        "id": "r4-m7",
+        "name": "Thick Chocolate Shake",
+        "price": 180,
+        "description": "Belgian cocoa blended with vanilla ice cream until it holds the straw upright, topped with chocolate shavings.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Shakes",
+        "rating": 4.4
+      }
+    ]
+  },
+  {
+    "id": "r5",
+    "name": "Wok Republic",
+    "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.4,
+    "ratingCount": 1476,
+    "cuisines": ["Chinese", "Asian", "Thai"],
+    "deliveryTime": "30-35 min",
+    "distanceKm": 2.9,
+    "priceForTwo": 500,
+    "isVeg": false,
+    "offer": "20% OFF up to ₹120",
+    "categoryIds": ["chinese"],
+    "menu": [
+      {
+        "id": "r5-m1",
+        "name": "Burnt Garlic Hakka Noodles",
+        "price": 240,
+        "description": "Noodles tossed on a roaring flame with charred garlic, julienned vegetables and a splash of dark soy.",
+        "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Recommended",
+        "rating": 4.4
+      },
+      {
+        "id": "r5-m2",
+        "name": "Chicken Schezwan Fried Rice",
+        "price": 280,
+        "description": "Wok-charred rice with shredded chicken and house schezwan paste, cut with spring onion greens.",
+        "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Recommended",
+        "rating": 4.3
+      },
+      {
+        "id": "r5-m3",
+        "name": "Chilli Paneer Dry",
+        "price": 260,
+        "description": "Paneer fingers seared with bell peppers and onion petals in a sticky chilli-soy reduction.",
+        "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Starters",
+        "rating": 4.3
+      },
+      {
+        "id": "r5-m4",
+        "name": "Crispy Chilli Baby Corn",
+        "price": 230,
+        "description": "Batter-fried baby corn glazed in a sweet-hot chilli sauce and showered with toasted sesame.",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Starters",
+        "rating": 4.2
+      },
+      {
+        "id": "r5-m5",
+        "name": "Thai Green Curry with Steamed Rice",
+        "price": 320,
+        "description": "Coconut milk simmered with a stone-ground green curry paste, thai basil and crunchy vegetables.",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Main Course",
+        "rating": 4.3
+      },
+      {
+        "id": "r5-m6",
+        "name": "Steamed Chicken Momos",
+        "price": 200,
+        "description": "Eight hand-pleated momos with a juicy minced chicken filling and a fiery red garlic chutney.",
+        "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Starters",
+        "rating": 4.5
+      },
+      {
+        "id": "r5-m7",
+        "name": "Honey Chilli Potato",
+        "price": 210,
+        "description": "Crisp potato batons in a sticky honey-chilli glaze that somehow stays crunchy to the last bite.",
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Starters",
+        "rating": 4.4
+      }
+    ]
+  },
+  {
+    "id": "r6",
+    "name": "Madras Tiffin Room",
+    "image": "https://images.unsplash.com/photo-1630383249896-424e482df921?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.6,
+    "ratingCount": 4188,
+    "cuisines": ["South Indian", "Kerala", "Beverages"],
+    "deliveryTime": "25-30 min",
+    "distanceKm": 2.1,
+    "priceForTwo": 250,
+    "isVeg": true,
+    "offer": "Flat ₹50 OFF above ₹199",
+    "categoryIds": ["south-indian", "healthy"],
+    "menu": [
+      {
+        "id": "r6-m1",
+        "name": "Ghee Roast Masala Dosa",
+        "price": 180,
+        "description": "Paper-thin dosa crisped in nut-brown ghee and wrapped around a peppery potato masala.",
+        "image": "https://images.unsplash.com/photo-1630383249896-424e482df921?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Recommended",
+        "rating": 4.7
+      },
+      {
+        "id": "r6-m2",
+        "name": "Idli Sambar",
+        "price": 110,
+        "description": "Three steamed rice cakes as soft as a pillow, with lentil sambar and coconut and tomato chutneys.",
+        "image": "https://images.unsplash.com/photo-1626132647523-66f5bf380027?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Recommended",
+        "rating": 4.6
+      },
+      {
+        "id": "r6-m3",
+        "name": "Mysore Masala Dosa",
+        "price": 190,
+        "description": "Spread with a fiery red garlic chutney before the potato filling goes in and the dosa is folded over.",
+        "image": "https://images.unsplash.com/photo-1630383249896-424e482df921?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Dosa",
+        "rating": 4.5
+      },
+      {
+        "id": "r6-m4",
+        "name": "Rava Onion Dosa",
+        "price": 160,
+        "description": "Lacy semolina dosa studded with onion, green chilli and curry leaves, crisp at every edge.",
+        "image": "https://images.unsplash.com/photo-1626132647523-66f5bf380027?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Dosa",
+        "rating": 4.3
+      },
+      {
+        "id": "r6-m5",
+        "name": "Medu Vada",
+        "price": 90,
+        "description": "Two urad dal vadas fried to a crackly shell with a fluffy, pepper-flecked centre.",
+        "image": "https://images.unsplash.com/photo-1626132647523-66f5bf380027?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Tiffin",
+        "rating": 4.4
+      },
+      {
+        "id": "r6-m6",
+        "name": "Appam with Vegetable Stew",
+        "price": 220,
+        "description": "Fermented rice appams with laced edges, alongside a mild coconut-milk stew of carrot and beans.",
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Kerala Specials",
+        "rating": 4.4
+      },
+      {
+        "id": "r6-m7",
+        "name": "Filter Coffee",
+        "price": 60,
+        "description": "Chicory-blend decoction brewed strong and pulled tall between two tumblers for a thick foam.",
+        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Beverages",
+        "rating": 4.8
+      },
+      {
+        "id": "r6-m8",
+        "name": "Semiya Payasam",
+        "price": 120,
+        "description": "Roasted vermicelli in sweetened milk with cardamom, ghee-fried cashew and golden raisins.",
+        "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Desserts",
+        "rating": 4.3
+      }
+    ]
+  },
+  {
+    "id": "r7",
+    "name": "Green Bowl Kitchen",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.2,
+    "ratingCount": 864,
+    "cuisines": ["Healthy", "Salads", "Continental"],
+    "deliveryTime": "30-35 min",
+    "distanceKm": 4.1,
+    "priceForTwo": 550,
+    "isVeg": false,
+    "offer": "15% OFF on your first order",
+    "categoryIds": ["healthy"],
+    "menu": [
+      {
+        "id": "r7-m1",
+        "name": "Grilled Chicken Quinoa Bowl",
+        "price": 380,
+        "description": "Herb-marinated chicken breast over lemon quinoa with roasted pumpkin and a tahini drizzle.",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Recommended",
+        "rating": 4.4
+      },
+      {
+        "id": "r7-m2",
+        "name": "Paneer Tikka Protein Bowl",
+        "price": 340,
+        "description": "Tandoori paneer with brown rice, chickpeas and pickled onion under a mint-yoghurt dressing.",
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Recommended",
+        "rating": 4.3
+      },
+      {
+        "id": "r7-m3",
+        "name": "Caesar Salad with Grilled Chicken",
+        "price": 320,
+        "description": "Crisp romaine with parmesan crisps and sourdough croutons in a light, eggless Caesar dressing.",
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Salads",
+        "rating": 4.1
+      },
+      {
+        "id": "r7-m4",
+        "name": "Avocado Sourdough Toast",
+        "price": 290,
+        "description": "Smashed avocado with chilli flakes and lime on toasted sourdough, crowned with a soft poached egg.",
+        "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "All Day Breakfast",
+        "rating": 4.2
+      },
+      {
+        "id": "r7-m5",
+        "name": "Overnight Oats with Berries",
+        "price": 240,
+        "description": "Rolled oats soaked in almond milk overnight, layered with mixed berry compote and toasted almonds.",
+        "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "All Day Breakfast",
+        "rating": 4.1
+      },
+      {
+        "id": "r7-m6",
+        "name": "Detox Green Smoothie",
+        "price": 210,
+        "description": "Spinach, green apple, cucumber and chia blended with coconut water and no added sugar.",
+        "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Beverages",
+        "rating": 4.0
+      }
+    ]
+  },
+  {
+    "id": "r8",
+    "name": "Brew & Bloom Cafe",
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.5,
+    "ratingCount": 2036,
+    "cuisines": ["Cafe", "Beverages", "Desserts"],
+    "deliveryTime": "20-25 min",
+    "distanceKm": 1.5,
+    "priceForTwo": 450,
+    "isVeg": true,
+    "offer": "Free cookie with every coffee",
+    "categoryIds": ["beverages", "desserts"],
+    "menu": [
+      {
+        "id": "r8-m1",
+        "name": "Hazelnut Cold Brew",
+        "price": 220,
+        "description": "Sixteen-hour steeped cold brew cut with hazelnut syrup and poured over slow-melt ice.",
+        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Recommended",
+        "rating": 4.6
+      },
+      {
+        "id": "r8-m2",
+        "name": "Classic Cappuccino",
+        "price": 180,
+        "description": "A double shot of single-estate Chikmagalur beans under steamed milk with a fine, sweet foam.",
+        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Recommended",
+        "rating": 4.5
+      },
+      {
+        "id": "r8-m3",
+        "name": "Belgian Chocolate Frappe",
+        "price": 260,
+        "description": "Dark chocolate, espresso and ice cream blended thick and crowned with whipped cream.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Cold Beverages",
+        "rating": 4.4
+      },
+      {
+        "id": "r8-m4",
+        "name": "Masala Chai",
+        "price": 90,
+        "description": "Assam leaf brewed with fresh ginger, crushed cardamom and a hint of lemongrass.",
+        "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Hot Beverages",
+        "rating": 4.7
+      },
+      {
+        "id": "r8-m5",
+        "name": "Red Velvet Pastry",
+        "price": 190,
+        "description": "Cocoa-kissed sponge with tangy cream cheese frosting and a crumb that holds together to the last fork.",
+        "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Bakes",
+        "rating": 4.3
+      },
+      {
+        "id": "r8-m6",
+        "name": "Pesto Croissant Sandwich",
+        "price": 240,
+        "description": "Buttery croissant stuffed with grilled cottage cheese, sun-dried tomato and basil pesto.",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Bakes",
+        "rating": 4.2
+      },
+      {
+        "id": "r8-m7",
+        "name": "Blueberry Cheesecake Slice",
+        "price": 280,
+        "description": "Baked New York style on a digestive crust and finished with a warm blueberry compote.",
+        "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Desserts",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": "r9",
+    "name": "Cocoa Theory",
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.7,
+    "ratingCount": 1129,
+    "cuisines": ["Desserts", "Bakery", "Ice Cream"],
+    "deliveryTime": "35-40 min",
+    "distanceKm": 5.2,
+    "priceForTwo": 400,
+    "isVeg": true,
+    "offer": "₹100 OFF above ₹599",
+    "categoryIds": ["desserts"],
+    "menu": [
+      {
+        "id": "r9-m1",
+        "name": "Molten Chocolate Lava Cake",
+        "price": 260,
+        "description": "Break the crust and a warm 70% dark chocolate centre spills over the vanilla bean ice cream.",
+        "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Recommended",
+        "rating": 4.8
+      },
+      {
+        "id": "r9-m2",
+        "name": "Biscoff Jar Tiramisu",
+        "price": 290,
+        "description": "Layers of Biscoff crumble, coffee-soaked sponge and mascarpone, sent in a chilled takeaway jar.",
+        "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Recommended",
+        "rating": 4.6
+      },
+      {
+        "id": "r9-m3",
+        "name": "Sea Salt Caramel Brownie",
+        "price": 180,
+        "description": "Fudgy centre, crackly top and a ribbon of salted caramel running through the middle.",
+        "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Brownies",
+        "rating": 4.7
+      },
+      {
+        "id": "r9-m4",
+        "name": "Alphonso Mango Cheesecake",
+        "price": 300,
+        "description": "No-bake cheesecake set over a cashew crust and finished with a thick Alphonso pulp glaze.",
+        "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Cheesecakes",
+        "rating": 4.5
+      },
+      {
+        "id": "r9-m5",
+        "name": "Hot Chocolate Bombe",
+        "price": 220,
+        "description": "A chocolate sphere that melts open when hot milk is poured over it, releasing marshmallows.",
+        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Beverages",
+        "rating": 4.4
+      },
+      {
+        "id": "r9-m6",
+        "name": "Tender Coconut Ice Cream",
+        "price": 190,
+        "description": "Churned with fresh tender coconut water and hand-scooped malai for a clean, light finish.",
+        "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Ice Cream",
+        "rating": 4.6
+      }
+    ]
+  },
+  {
+    "id": "r10",
+    "name": "Manek Chowk Street Kitchen",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.0,
+    "ratingCount": 6390,
+    "cuisines": ["Street Food", "Gujarati", "Sandwiches"],
+    "deliveryTime": "25-30 min",
+    "distanceKm": 3.3,
+    "priceForTwo": 250,
+    "isVeg": true,
+    "offer": "30% OFF up to ₹75",
+    "categoryIds": ["burger", "beverages"],
+    "menu": [
+      {
+        "id": "r10-m1",
+        "name": "Cheese Butter Pav Bhaji",
+        "price": 190,
+        "description": "Bhaji mashed down on the tawa with a slab of butter, buried under grated cheese and raw onion.",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Recommended",
+        "rating": 4.3
+      },
+      {
+        "id": "r10-m2",
+        "name": "Chocolate Cheese Sandwich",
+        "price": 160,
+        "description": "The Manek Chowk classic: grated chocolate and cheese pressed between butter-crisped bread.",
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Recommended",
+        "rating": 4.1
+      },
+      {
+        "id": "r10-m3",
+        "name": "Tandoori Grilled Sandwich",
+        "price": 150,
+        "description": "Spiced potato and paneer with tandoori mayo, grilled until the ridges turn properly dark.",
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Sandwiches",
+        "rating": 4.2
+      },
+      {
+        "id": "r10-m4",
+        "name": "Dabeli",
+        "price": 90,
+        "description": "Sweet-spicy potato masala in a buttered pav with pomegranate, fine sev and roasted peanuts.",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Street Food",
+        "rating": 4.2
+      },
+      {
+        "id": "r10-m5",
+        "name": "Sev Usal",
+        "price": 130,
+        "description": "Ahmedabad-style spicy white peas curry loaded with sev, onion and a hard squeeze of lime.",
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Street Food",
+        "rating": 4.0
+      },
+      {
+        "id": "r10-m6",
+        "name": "Khaman Dhokla",
+        "price": 110,
+        "description": "Steamed gram flour squares, spongy right through and soaked in a mustard and curry leaf tempering.",
+        "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Gujarati",
+        "rating": 4.4
+      },
+      {
+        "id": "r10-m7",
+        "name": "Rose Falooda",
+        "price": 170,
+        "description": "Rose syrup, vermicelli, basil seeds and a scoop of kulfi layered in a tall chilled glass.",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Beverages",
+        "rating": 4.3
+      },
+      {
+        "id": "r10-m8",
+        "name": "Masala Chaas",
+        "price": 50,
+        "description": "Churned buttermilk with roasted cumin, ginger and coriander, served properly cold.",
+        "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Beverages",
+        "rating": 4.1
+      }
+    ]
+  },
+  {
+    "id": "r11",
+    "name": "Crust & Coal Pizzeria",
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80",
+    "rating": 3.9,
+    "ratingCount": 742,
+    "cuisines": ["Pizza", "Fast Food", "Beverages"],
+    "deliveryTime": "40-45 min",
+    "distanceKm": 6.4,
+    "priceForTwo": 450,
+    "isVeg": true,
+    "offer": "Flat 25% OFF",
+    "categoryIds": ["pizza"],
+    "menu": [
+      {
+        "id": "r11-m1",
+        "name": "Tandoori Paneer Pizza",
+        "price": 340,
+        "description": "Tandoori-marinated paneer, onion and capsicum over a mint mayo base with extra mozzarella.",
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Recommended",
+        "rating": 4.1
+      },
+      {
+        "id": "r11-m2",
+        "name": "Cheese Burst Margherita",
+        "price": 360,
+        "description": "Liquid cheese sealed inside the crust, so the very first bite arrives with a stretch.",
+        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Recommended",
+        "rating": 4.0
+      },
+      {
+        "id": "r11-m3",
+        "name": "Corn & Jalapeno Pizza",
+        "price": 300,
+        "description": "Sweet corn kernels and pickled jalapeno on a herbed tomato base, finished with chilli oil.",
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Pizza",
+        "rating": 3.9
+      },
+      {
+        "id": "r11-m4",
+        "name": "Peri Peri Paneer Pockets",
+        "price": 220,
+        "description": "Folded dough parcels stuffed with peri peri paneer and cheese, baked until golden at the seam.",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Starters",
+        "rating": 3.8
+      },
+      {
+        "id": "r11-m5",
+        "name": "Cheesy Garlic Breadsticks",
+        "price": 170,
+        "description": "Soft breadsticks under a blanket of garlic butter and mozzarella, with a jalapeno dip.",
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Starters",
+        "rating": 4.0
+      },
+      {
+        "id": "r11-m6",
+        "name": "Choco Lava Cup",
+        "price": 130,
+        "description": "A warm chocolate cake cup with a gooey centre, baked to order alongside your pizza.",
+        "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Desserts",
+        "rating": 3.9
+      }
+    ]
+  },
+  {
+    "id": "r12",
+    "name": "Dragon Bowl Express",
+    "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.3,
+    "ratingCount": 2570,
+    "cuisines": ["Chinese", "Momos", "Tibetan"],
+    "deliveryTime": "30-35 min",
+    "distanceKm": 3.8,
+    "priceForTwo": 400,
+    "isVeg": false,
+    "offer": "Flat ₹60 OFF above ₹299",
+    "categoryIds": ["chinese"],
+    "menu": [
+      {
+        "id": "r12-m1",
+        "name": "Pan-Fried Chicken Momos",
+        "price": 230,
+        "description": "Steamed first, then seared flat on one side for a crisp base, served with sesame chilli oil.",
+        "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Recommended",
+        "rating": 4.5
+      },
+      {
+        "id": "r12-m2",
+        "name": "Veg Kothey Momos",
+        "price": 190,
+        "description": "Cabbage, carrot and glass noodle filling in a thin wrapper, pan-fried only once you order.",
+        "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Recommended",
+        "rating": 4.3
+      },
+      {
+        "id": "r12-m3",
+        "name": "Chicken Thukpa",
+        "price": 270,
+        "description": "Himalayan noodle soup with shredded chicken, bok choy and a clear, properly peppery broth.",
+        "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Soups",
+        "rating": 4.4
+      },
+      {
+        "id": "r12-m4",
+        "name": "Chilli Garlic Ramen Bowl",
+        "price": 290,
+        "description": "Springy noodles in a garlic-chilli broth with a soft-boiled egg, sweet corn and spring onion.",
+        "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Bowls",
+        "rating": 4.2
+      },
+      {
+        "id": "r12-m5",
+        "name": "Triple Schezwan Rice",
+        "price": 320,
+        "description": "Fried rice and noodles together under a thick schezwan gravy, the way Ahmedabad likes it.",
+        "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+        "isVeg": true,
+        "category": "Bowls",
+        "rating": 4.1
+      },
+      {
+        "id": "r12-m6",
+        "name": "Crispy Chicken Wings",
+        "price": 260,
+        "description": "Twice-fried wings glazed in a sticky soy-honey sauce and scattered with toasted sesame.",
+        "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Starters",
+        "rating": 4.3
+      },
+      {
+        "id": "r12-m7",
+        "name": "Darjeeling Momo Platter",
+        "price": 340,
+        "description": "Six steamed and six fried momos with three house chutneys, built for sharing at the table.",
+        "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+        "isVeg": false,
+        "category": "Platters",
+        "rating": 4.4
+      }
+    ]
+  }
+]
