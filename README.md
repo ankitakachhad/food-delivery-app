@@ -32,9 +32,6 @@ npm run ios
 Requirements: Node 22.11 or newer; JDK 17 and Android Studio for Android; Xcode and CocoaPods
 for iOS. If Metro is not already running, start it in a separate terminal with `npm start`.
 
-## Screenshots
-
-_To be added._
 
 ## Libraries used
 
@@ -149,6 +146,5 @@ lines always add up to the displayed total.
 ## Known limitations
 
 - Addresses and payment methods are UI only; nothing is validated against a real service.
-- The 15% API failure rate is intentional and will occasionally show an error screen on launch.
 - Restaurant photos are remote URLs, so the first load of each image needs a connection. Caching is
   whatever the platform image loader does by default; there is no explicit offline image cache.
