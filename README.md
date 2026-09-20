@@ -1,18 +1,26 @@
-# Mini Food Delivery App
+<div align="center">
 
-A React Native food delivery app. Browse restaurants, build a cart, check out, and watch the
-order move through five delivery stages. There is no backend — all data is local mock data,
-and the order status is simulated on the device.
+# 🍔 Mini Food Delivery App
 
-## Setup
+**A React Native food delivery app — browse restaurants, build a cart, check out, and watch your order move through five live delivery stages.**
 
-This is a bare **React Native CLI** project — no Expo.
+No backend. All data is local mock data, and the order status is simulated on the device.
+
+<img src="screenshots/01-home.png" width="200" alt="Home" />
+<img src="screenshots/03-restaurant-details.png" width="200" alt="Restaurant details" />
+<img src="screenshots/10-order-tracking.png" width="200" alt="Order tracking" />
+
+</div>
+
+---
+
+## Quick start
 
 ```bash
 git clone https://github.com/ankitakachhad/food-delivery-app.git
 cd food-delivery-app
 npm install
-npx react-native-asset      # links the bundled fonts into iOS and Android
+npx react-native-asset          # links the bundled fonts into iOS and Android
 ```
 
 **Android**
@@ -29,9 +37,75 @@ bundle exec pod install --project-directory=ios
 npm run ios
 ```
 
-Requirements: Node 22.11 or newer; JDK 17 and Android Studio for Android; Xcode and CocoaPods
-for iOS. If Metro is not already running, start it in a separate terminal with `npm start`.
+If Metro is not already running, start it in a separate terminal with `npm start`.
 
+<details>
+<summary><b>What you need installed</b></summary>
+
+<br>
+
+| | Version |
+|---|---|
+| Node | 22.11 or newer |
+| JDK | 17 (Android) |
+| Android Studio | with SDK 36 + build-tools 36 |
+| Xcode + CocoaPods | iOS only |
+
+This is a **bare React Native CLI** project — there is no Expo, so an emulator or a real
+device is required.
+
+</details>
+
+---
+
+## Screenshots
+
+| Home | Search | Restaurant details |
+|:---:|:---:|:---:|
+| <img src="screenshots/01-home.png" width="230"> | <img src="screenshots/02-search.png" width="230"> | <img src="screenshots/03-restaurant-details.png" width="230"> |
+| Search bar, categories, restaurant cards | Matches **dishes too** — not just restaurant names | Menu with category tabs and add-to-cart |
+
+| Cart | Checkout | Order tracking |
+|:---:|:---:|:---:|
+| <img src="screenshots/04-cart.png" width="230"> | <img src="screenshots/09-checkout.png" width="230"> | <img src="screenshots/10-order-tracking.png" width="230"> |
+| Quantity, subtotal, delivery fee, tax, total | Address, instructions, payment method | Five stages, advancing live |
+
+| Order history | Favorites | Empty state |
+|:---:|:---:|:---:|
+| <img src="screenshots/05-orders.png" width="230"> | <img src="screenshots/06-favorites.png" width="230"> | <img src="screenshots/08-empty-state.png" width="230"> |
+| Id, restaurant, total, date, status | Saved restaurants, persisted | Loading, empty and error states handled everywhere |
+
+---
+
+## Features
+
+**Screens**
+
+- **Home** — search bar, food categories, restaurant list with image, name, rating, cuisine and delivery time
+- **Restaurant details** — restaurant info, menu grouped by category, add to cart, increase/decrease quantity
+- **Cart** — line items, quantity changes, remove, subtotal / delivery fee / tax / total, proceed to checkout
+- **Checkout** — delivery address, delivery instructions, payment method, order summary, place order
+- **Order tracking** — Order Placed → Accepted → Preparing → Out for Delivery → Delivered, simulated locally
+- **Order history** — past orders with id, restaurant, total, date, status, and full details
+
+**Also included**
+
+- Search across restaurants **and** dishes — a dish match tells you which menu it was found in
+- Add and remove favourites
+- Cart, favourites and orders persisted locally, so they survive an app restart
+- Loading, empty and error states on every list screen
+- Reusable components in `src/components/common/`
+- Layered, scalable folder structure
+- Works across screen sizes — responsive scaling, no fixed widths, text truncates rather than overflows
+
+**Bonus**
+
+- 🌙 **Dark mode** — system, light or dark, chosen in Settings and persisted
+- ✨ **Animations** — pulsing ring on the active tracking step, animated favourite button, list entrance transitions
+- ⚡ **Optimised lists** — `React.memo`, `useCallback` renderers, tuned `FlatList` batching, pagination on scroll
+- 📡 **Offline handling** — banner at the top of every screen, and checkout blocked while offline
+
+---
 
 ## Libraries used
 
@@ -42,16 +116,18 @@ for iOS. If Metro is not already running, start it in a separate terminal with `
 | `redux-persist` + `@react-native-async-storage/async-storage` | Persists cart, favourites, orders and theme across app restarts |
 | `@react-navigation/native`, `native-stack`, `bottom-tabs` | Four-tab shell with a stack on top for detail screens |
 | `react-native-reanimated` | The pulsing ring on the active order-tracking step, and list entrance animations |
-| `react-native-worklets` | Reanimated 4 needs this as a direct dependency — it supplies the worklet runtime and the Babel plugin listed in `babel.config.js` |
+| `react-native-worklets` | Reanimated 4 needs this as a direct dependency — it supplies the worklet runtime and the Babel plugin in `babel.config.js` |
 | `@react-native-community/netinfo` | Offline detection for the banner and the disabled checkout button |
 | `react-native-vector-icons` | Ionicons throughout |
-| `react-native-asset` | Links the `.ttf` files in `assets/fonts` into both native projects — Gabarito for headings, Plus Jakarta Sans for body text |
+| `react-native-asset` | Links the `.ttf` files in `assets/fonts` into both native projects — Gabarito for headings, Plus Jakarta Sans for body |
+
+---
 
 ## Architecture
 
-`ios/` and `android/` are the generated native projects and are checked in, as they are in any
-bare React Native app. All application code lives under `src/`, organised **by layer, not by
-screen**, so a new feature means a new slice and a new screen without touching anything else.
+All application code lives under `src/`, organised **by layer, not by screen**, so a new
+feature means a new slice and a new screen without touching anything else. `ios/` and
+`android/` are the generated native projects and are checked in, as in any bare RN app.
 
 ```
 src/
@@ -78,7 +154,9 @@ Two rules keep this consistent:
 - **No hard-coded colours or spacing.** Everything comes from `src/theme/`. The light and
   dark palettes share identical keys, so no component ever branches on the active theme.
 - **Business logic lives outside components.** Every price calculation is a pure function in
-  `src/utils/pricing.js`, which makes it trivial to read and to test.
+  `src/utils/pricing.js`, which makes it easy to read and to test.
+
+---
 
 ## State management
 
@@ -95,6 +173,8 @@ Five slices, each owning one concern:
 `redux-persist` writes `cart`, `favorites`, `orders` and `theme` to AsyncStorage.
 `restaurants` is deliberately **excluded** — it is mock data that should be re-fetched on
 every launch, and persisting it would hide the loading and error states.
+
+---
 
 ## Design decisions worth calling out
 
@@ -115,36 +195,11 @@ elapsed since it was placed. Without this, closing the app would freeze an order
 **Prices are rounded once, in one place.** `calcTax` rounds to whole rupees so the displayed
 lines always add up to the displayed total.
 
-## Requirements checklist
-
-**Screens**
-
-- [x] Home — search bar, food categories, restaurant list, cards with image, name, rating, cuisine, delivery time
-- [x] Restaurant Details — restaurant info, food menu, add to cart, increase/decrease quantity
-- [x] Cart — items, quantity changes, remove, subtotal, delivery fee, tax, total, proceed to checkout
-- [x] Checkout — delivery address, delivery instructions, payment method, order summary, place order
-- [x] Order Tracking — Order Placed → Accepted → Preparing → Out for Delivery → Delivered, simulated locally
-- [x] Order History — previous orders with id, restaurant, total, date, status, and full details
-
-**Additional**
-
-- [x] Search across restaurants **and** dishes (a dish match shows which menu it was found in)
-- [x] Add and remove favourites
-- [x] Cart, favourites and orders persisted locally
-- [x] Loading, empty and error states on every list screen
-- [x] Reusable components in `src/components/common/`
-- [x] Layered, scalable folder structure
-- [x] Works across screen sizes — responsive scaling, no fixed widths, text truncates rather than overflows
-
-**Bonus**
-
-- [x] Dark mode — system, light or dark, chosen in Settings and persisted
-- [x] Animations — pulsing tracking step, animated favourite button, list entrance transitions
-- [x] Optimised lists — `React.memo`, `useCallback` renderers, tuned `FlatList` batching, pagination on scroll
-- [x] Offline handling — banner at the top of every screen, and checkout blocked while offline
+---
 
 ## Known limitations
 
 - Addresses and payment methods are UI only; nothing is validated against a real service.
-- Restaurant photos are remote URLs, so the first load of each image needs a connection. Caching is
-  whatever the platform image loader does by default; there is no explicit offline image cache.
+- Restaurant photos are remote URLs, so the first load of each image needs a connection.
+  Caching is whatever the platform image loader does by default; there is no explicit
+  offline image cache.
